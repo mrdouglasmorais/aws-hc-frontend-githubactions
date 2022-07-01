@@ -16,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy:dev": "",
-    "deploy:prod": ""
+    "deploy:dev": "npm run build && aws s3 sync ./build/ s3://hc-react-aws-dev --acl public-read",
+    "deploy:prod": "npm run build && aws s3 sync ./build/ s3://hc-react-aws-prod --acl public-read"
   },
   "author": "Douglas Morais",
   "eslintConfig": {
