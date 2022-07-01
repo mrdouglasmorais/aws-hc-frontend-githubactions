@@ -8,10 +8,10 @@
 [clique aqui](template.yml)
 
 ### Link público para o Bucket PROD:
-[clique aqui]()
+[clique aqui](http://hc-react-aws-prod.s3-website-us-east-1.amazonaws.com/)
 
 ### Link público para o Bucket DEV:
-[clique aqui]()
+[clique aqui](http://hc-react-aws-dev.s3-website-us-east-1.amazonaws.com/)
 
 
 ### GitHub Actions

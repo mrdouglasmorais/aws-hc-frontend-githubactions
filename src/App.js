@@ -9,7 +9,7 @@ function App() {
         <p>
           <code>Mais um projeto desenvolvido em ReactJS.</code>.
         </p>
-        <p>Ambiente de Produção Release v1.0</p>
+        <p>Ambiente de Desenvolvimento Release v1.0</p>
         <a
           className="App-link"
           href="https://github.com/mrdouglasmorais"
